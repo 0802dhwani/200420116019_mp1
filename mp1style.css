@@ -1,0 +1,85 @@
+.ptext{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+div{
+    display: block;
+}
+
+.img1, .img2, .img3{
+    position: relative;
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url(https://images7.alphacoders.com/793/793472.jpg);
+    min-height: 100%;
+}
+.img2{
+    background-image: url(https://images.unsplash.com/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8c3VtbWVyJTIwbGlnaHR8ZW58MHx8fHwxNjc3NDM1NTc2&ixlib=rb-4.0.3&q=80&w=1080) ;
+    min-height: 400px;
+}
+.img3{
+    background-image: url(https://images8.alphacoders.com/484/484717.jpg);
+    min-height: 400px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section{
+    display: block;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
